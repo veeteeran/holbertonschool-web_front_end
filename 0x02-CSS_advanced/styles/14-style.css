@@ -9,6 +9,7 @@
     --color-light-grey: #f3f3f3;
     --color-primary: #d73953;
     --color-white: #ffffff;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -23,9 +24,8 @@
     --line-height-big: 1.8;
     --section-header-align: center;
     --section-tagline-transform: uppercase;
-    --section-title-color: var(--color-black);
     --section-title-margin: 0;
-    --text-color: var(--color-black);
+    --section-title-color: var(--color-black);
 }
 
 html {
