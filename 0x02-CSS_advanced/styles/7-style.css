@@ -1,17 +1,10 @@
-/* Import fonts from Google */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
 :root {
-    --color-black: #090909;
-    --color-dark-grey: #353535;
-    --color-light-grey: #f3f3f3;
     --color-primary: #d73953;
+    --color-black: #090909;
     --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -19,11 +12,17 @@ html {
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
-    --font-weight-bold: 700;
     --font-weight-regular: 400;
-    --text-color: var(--color-black);
+    --font-weight-bold: 700;
 }
 
+/* Effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* Assign font properties to body and headings */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
