@@ -1,17 +1,11 @@
-/* Centering the section titles */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-}
-
+/* Define custom properties for root element */
 :root {
-    --color-black: #090909;
-    --color-dark-grey: #353535;
-    --color-light-grey: #f3f3f3;
     --color-primary: #d73953;
+    --color-black: #090909;
     --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-size-small: 1.2rem;
@@ -24,10 +18,15 @@ html {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-align: center;
-    --text-color: var(--color-black);
 }
 
+/* Effortless transitions when scrolling */
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+/* Assign font properties to body and headings */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -41,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
 }
 
+/* Style the anchor elements so the text isn’t decorated with anything */
 a {
     color: var(--text-color);
     text-decoration: none;
@@ -54,6 +54,7 @@ a {
     color: var(--color-primary);
 }
 
+/* Center section titles */
 .section-header {
     text-align: var(--section-header-align);
 }
