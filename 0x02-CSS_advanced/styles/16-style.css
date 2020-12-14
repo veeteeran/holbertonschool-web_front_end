@@ -103,5 +103,5 @@ a:active {
 /* Styling for container class */
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
