@@ -1,19 +1,21 @@
-/* Declare custom font properties assign to body and headings */
+/* Define custom properties for root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Effortless transitions when scrolling */
 html {
     scroll-behavior: smooth;
 }
 
-:root {
-    --color-black: #090909;
-    --color-dark-grey: #353535;
-    --color-light-grey: #f3f3f3;
-    --color-primary: #d73953;
-    --color-white: #ffffff;
-    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --text-color: var(--color-black);
-}
-
+/* Assign font properties to body and headings */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
