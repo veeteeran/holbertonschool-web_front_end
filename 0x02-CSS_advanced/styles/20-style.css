@@ -206,7 +206,7 @@ ul.row {
 
 /* Create new row with the following properties */
 .row::after {
-    content: none;
+    content: "";
     display: table;
     clear: both;
 }
