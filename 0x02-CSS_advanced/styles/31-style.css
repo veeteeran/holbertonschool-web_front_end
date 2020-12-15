@@ -397,7 +397,7 @@ ul.row {
 
 /* Styling for .card-testimonial and descendants */
 .card-testimonial .card-quote {
-    position: absolute; /* Always confused by this */
+    position: relative; /* Always confused by this */
 }
 
 .card-testimonial .card-quote::before {
