@@ -25,7 +25,6 @@
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
-    --section-header-align: center;
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -115,7 +114,7 @@ a:active {
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-text-decoration);
+    background-color: var(--button-hover-background);
 }
 
 .visually-hidden {
