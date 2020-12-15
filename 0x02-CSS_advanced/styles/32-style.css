@@ -126,7 +126,7 @@ a:active {
     background-color: var(--button-text-decoration);
     transition: var(--transition-duration);
     transition-property: color;
-    transition-property: background-color; /* background or background-color? */
+    transition-property: background; /* background or background-color? */
 }
 
 .visually-hidden {
