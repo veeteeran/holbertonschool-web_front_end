@@ -353,7 +353,7 @@ ul.row {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    bottom: 0;
+    bottom: 0; /* Not sure about this one */
 }
 
 .card-work .card-inner {
@@ -364,7 +364,7 @@ ul.row {
     z-index: 1;
 }
 
-.card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
