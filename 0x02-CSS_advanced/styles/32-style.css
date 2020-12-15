@@ -125,8 +125,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-text-decoration);
     transition: var(--transition-duration);
-    transition-property: color;
-    transition-property: background; /* background or background-color? */
+    transition-property: color, background-color;
 }
 
 .visually-hidden {
@@ -326,7 +325,7 @@ ul.row {
 }
 
 .section-hero .section-title {
-    margin-bottom: 5rem;;
+    margin-bottom: 5rem;
 }
 
 .section-hero .section-inner {
@@ -355,11 +354,11 @@ ul.row {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img{
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    bottom: 0; /* Not sure about this one */
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
@@ -413,7 +412,7 @@ ul.row {
 
 /* Styling for .card-testimonial and descendants */
 .card-testimonial .card-quote {
-    position: relative; /* Always confused by this */
+    position: relative;
 }
 
 .card-testimonial .card-quote::before {
