@@ -1,0 +1,18 @@
+/* Use extend to style classes */
+$font-size-info: 12px;
+$color-success: #00FF00;
+$color-warning: #FF0000;
+
+.info {
+  font-size: $font-size-info;
+}
+
+.success {
+  @extend .info;
+  color: $color-success;  
+}
+
+.warning {
+  @extend .info;
+  color: $color-warning;
+}
