@@ -1,7 +1,4 @@
 /* Use extend to style classes */
-$color-success: #00FF00;
-$color-warning: #FF0000;
-
 %font-size-info { 
   font-size: 12px; 
 }
@@ -12,10 +9,10 @@ $color-warning: #FF0000;
 
 .success {
   @extend %font-size-info;
-  color: $color-success;
+  color: #00FF00;
 }
 
 .warning {
   @extend %font-size-info;
-  color: $color-warning;
+  color: #FF0000;
 }
