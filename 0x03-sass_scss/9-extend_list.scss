@@ -17,6 +17,8 @@
   color: #FF0000;
 }
 */
+
+/* Use extend to style classes */
 $color-success: #00FF00;
 $color-warning: #FF0000;
 
@@ -34,6 +36,6 @@ $color-warning: #FF0000;
 }
 
 .warning {
-  @extend info-size;
+  @extend %info-size;
   color: $color-warning;
 }
