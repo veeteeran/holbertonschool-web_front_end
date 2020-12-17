@@ -1,18 +1,18 @@
 /* Use extend to style classes */
-%font-size-info { 
+%info-size { 
   font-size: 12px; 
 }
 
 .info {
-  @extend %font-size-info;
+  @extend %info-size;
 }
 
 .success {
-  @extend %font-size-info;
+  @extend %info-size;
   color: #00FF00;
 }
 
 .warning {
-  @extend %font-size-info;
+  @extend %info-size;
   color: #FF0000;
 }
