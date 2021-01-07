@@ -243,10 +243,6 @@
   /* Navbar
       ============================= */
   
-  :root {
-    --nav-item-margin: 0;
-  }
-
   .nav {
     margin: 0;
     padding: 0;
