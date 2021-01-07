@@ -289,10 +289,14 @@
   }
 
   @media (max-width: 767px) {
-      .navbar-menu {
-          display: none;
-          flex: 1; /* Is this supposed to be it's own selector outside the media query? */
-      }
+    :root {
+      --nav-item-margin: 0;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex: 1;
+    }
   }
 
   .header .nav {
