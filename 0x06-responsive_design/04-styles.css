@@ -298,13 +298,13 @@
         display: none;
         flex: 1; /* Is this supposed to be it's own selector outside the media query? */
     }
-  }
-
-  .header .nav {
-    flex-direction: column;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height .2s ease-out;
+    
+    .header .nav {
+      flex-direction: column;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height .2s ease-out;
+    }
   }
   
   /* Header
