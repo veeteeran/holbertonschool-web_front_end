@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+
+        <meta charset="utf-8" />
+        <script type="application/javascript"
+                src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+                crossorigin="anonymous"></script>
+        <title>Task 3</title>
+
+    </head>
+
+    <body>
+        <script>
+            const createFamilyTree = () => {
+                $("body").append("<table>");
+                $("table").append("<tr>", "<tr>", "<tr>", "<tr>");
+                $("tr:nth-child(1)").append("<th>", "<th>");
+                $("tr:nth-child(2)").append("<td>", "<td>");
+                $("tr:nth-child(3)").append("<td>", "<td>");
+                $("tr:nth-child(4)").append("<td>", "<td>");
+                $("th").text("Firstname");
+                $("th:nth-child(2)").text("Lastname");
+                $("td").text("Guillaume");
+                $("tr:nth-child(3) td").text("Paulette");
+                $("tr:nth-child(4) td").text("Antoine");
+                $("td:nth-child(even)").text("Salva");
+            }
+            $(document).ready(createFamilyTree);
+        </script>
+    </body>
+
+</html>
