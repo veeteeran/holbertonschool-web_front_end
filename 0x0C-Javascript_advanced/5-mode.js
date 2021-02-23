@@ -45,15 +45,27 @@ const main = () => {
     let spookyButton = document.createElement("BUTTON");
     spookyButton.innerHTML = "Spooky";
     document.body.appendChild(spookyButton);
+<<<<<<< HEAD
+=======
+    spookyButton.onclick = spooky;
+>>>>>>> aa7dbafe39dea87d7c2180adbbb71a5fa45b5cd7
 
     let darkModeButton = document.createElement("BUTTON");
     darkModeButton.innerHTML = "Dark mode";
     document.body.appendChild(darkModeButton);
+<<<<<<< HEAD
+=======
+    spookyButton.onclick = darkMode;
+>>>>>>> aa7dbafe39dea87d7c2180adbbb71a5fa45b5cd7
 
     let screamModeButton = document.createElement("BUTTON");
     screamModeButton.innerHTML = "Scream mode";
     document.body.appendChild(screamModeButton);
+<<<<<<< HEAD
 
+=======
+    spookyButton.onclick = screamMode;
+>>>>>>> aa7dbafe39dea87d7c2180adbbb71a5fa45b5cd7
 }
 
 main();
