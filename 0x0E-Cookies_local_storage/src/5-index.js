@@ -1,6 +1,6 @@
 const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
 
-if (typeof(Storage) !== undefined) {
+if (window.localStorage !== undefined) {
     document.addEventListener('DOMContentLoaded', () => {
         createStore();
         displayCart();
