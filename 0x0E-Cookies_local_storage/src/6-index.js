@@ -1,6 +1,6 @@
 const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
 
-if (window.localStorage !== undefined) {
+if (window.sessionStorage !== undefined) {
     document.addEventListener('DOMContentLoaded', () => {
         createStore();
         displayCart();
@@ -10,7 +10,7 @@ if (window.localStorage !== undefined) {
 }
 
 const addItemToCart = item => {
-    localStorage.setItem(item, 'true');
+    sessionStorage.setItem(item, 'true');
 }
 
 const createStore = () => {
@@ -25,7 +25,7 @@ const createStore = () => {
 }
 
 const displayCart = () => {
-    if (window.localStorage.length > 0) {
+    if (window.sessionStorage.length > 0) {
         const p = document.createElement("p");
         const length = window.localStorage.length;
         p.innerHTML = `You previously had ${length} items in your cart`;
